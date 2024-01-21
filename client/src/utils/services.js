@@ -1,5 +1,5 @@
 export const baseUrl =
-  "https://chat-app-backend-production-9acc.up.railway.app/";
+  "https://chat-app-backend-production-9acc.up.railway.app/api";
 
 export const postRequest = async (url, body) => {
   const response = await fetch(url, {
